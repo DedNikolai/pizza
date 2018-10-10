@@ -1,0 +1,699 @@
+.navbar {
+    background-color: #3f4043;
+    height: 37px;
+    padding-left: 20px;
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+}
+.navbar-title {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    line-height: 37px;
+}
+
+.navbar-logo {
+    display: none;
+}
+
+.navbar-button {
+    box-sizing: border-box;
+    background-color: #000;
+    padding:12px 14px;
+    width: 42px;
+    height: 37px;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.navbar-button .line {
+    height: 2px;
+    margin: 1px 0;
+    width: 100%;
+    background: #ffffff;
+}
+
+.navbar-button span:last-of-type {
+    display: none;
+}
+
+.close-menu {
+    display: block;
+}
+
+.close-menu::after {
+    content: '\00D7';
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar-menu {
+    background-color: #fafafa;
+    position: absolute;
+    right: 0;
+    top: 37px;
+    width: 182px;
+    padding-bottom: 5px;
+    display: none;
+}
+
+.navbar-menu-active {
+    display: block;
+}
+
+.navbar-menu-link {
+    display: block;
+    padding: 10px 12px;
+    border-bottom: 2px solid #f2f2f2;
+    color: #444;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-menu-link:hover {
+    background-color: #f5f5f5;
+}
+
+.navbar-menu-link.active {
+    background-color: #f5f5f5;
+}
+
+.header{
+    padding-left: 20px;
+    padding-top: 19px;
+    padding-bottom: 94px;
+    margin-bottom: 2px;
+    background-image: url("../img/header-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-title{
+    margin-bottom: 12px;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.header-site-link{
+    font-family: 'Lato', sans-serif;
+    color: #a6d6e0;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.food-menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.food-menu-delivery {
+    background-image: url("../img/Pizza delivery fon copy 3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.food-menu-item{
+    display: inline-block;
+    position: relative;
+    flex-basis: 100%;
+    text-decoration: none;
+    margin-bottom: 1px;
+}
+
+.food-menu-name{
+    padding: 27px 0;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    width: 75%;
+    text-align: center;
+}
+
+.food-menu-item::after{
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: ">";
+    width: 25%;
+    height: 74px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    background-color: #add9ae;
+    font-size: 26px;
+    color: #fff;
+    text-align: center;
+    line-height: 75px;
+}
+
+.food-menu-uaux{
+    background-image: url("../img/UA_UX Salads fon copy 3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.food-menu-desserts{
+    background-image: url("../img/Desserts fon copy 3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.food-price {
+    margin-top: 26px;
+    font-family: 'Lato', sans-serif;
+    color:  #3f4043;
+}
+
+.eat-menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.eat-menu_list {
+    flex-basis: 100%;
+}
+
+.food-price_heading_header {
+    font-size: 19px;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
+
+.food-price_heading_subscribe {
+    color:  #cbcdce;;
+    font-size: 10px;
+    padding: 0 5px;
+    margin-top: 4px;
+}
+
+.eat-menu_title {
+    color:  #acd9ad;
+    font-size: 19px;
+    background-color: #3f4043;
+    padding: 12px 19px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.eat-menu_subtitle {
+    position: relative;
+    font-size: 15px;
+    padding:  0 19px;
+    margin-top: 19px;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+}
+
+.food-subtitle::after {
+    content: url("../img/Layer11.png");
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    margin-right: 6px;
+}
+
+.food-name-price {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 19px;
+    margin-bottom: 11px;
+}
+
+.food-name {
+    font-size: 14px;
+}
+
+.item-price {
+    font-weight: 700;
+}
+
+.food-description {
+    padding: 0 19px;
+    font-size: 8.75px;
+    text-align: justify;
+    margin-bottom: 11px;
+}
+
+.wine-subtitle::after {
+    content: url("../img/Layer9.png");
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    margin-right: 15px;
+}
+
+.tea-menu-title {
+    color: #fff;
+    background-color: #acd9ad;
+    margin-top: 28px;
+}
+
+.tea-subtitle::after {
+    content: url("../img/Layer10.png");
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    margin-right: 5px;
+}
+
+.coffe-subtitle::after {
+    content: url("../img/Layer8.png");
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    margin-right: 10px;
+}
+
+.footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 40px;
+    text-align: center;
+    background-color: #acd9ad;
+    padding: 13px 0;
+}
+
+.footer-logo {
+    display: none;
+}
+
+@media (min-width: 640px) {
+
+    .navbar-menu-link {
+        padding: 20px 24px;
+        font-size: 14px;
+    }
+
+    .close-menu::after {
+        font-size: 70px;
+    }
+
+    .navbar-menu {
+        top: 76px;
+        width: 244px;
+    }
+    .navbar {
+        height: 74px;
+        padding-left: 26px;
+    }
+
+    .navbar-title {
+        font-size: 24px;
+        line-height: 74px;
+    }
+
+    .navbar-button {
+        width: 82px;
+        height: 74px;
+        padding: 24px 28px;
+        font-size: 20px;
+    }
+
+    .navbar-button .line {
+        height: 3px;
+        margin: 2px 0;
+    }
+
+    .header-title {
+        font-size: 36px;
+        line-height: 38px;
+        margin-bottom: 22px;
+    }
+
+    .header {
+        padding: 30px 0 198px 38px;
+        background-image: url("../img/header-fon-copy-2.jpg");
+    }
+
+    .header-site-link {
+        font-size: 24px;
+    }
+
+    .food-menu-name {
+        font-size: 36px;
+        padding: 59px 0;
+    }
+
+    .food-menu-delivery {
+        background-image: url("../img/Pizza-delivery-fon-copy-2.jpg");
+    }
+
+    .food-menu-uaux {
+        background-image: url("../img/UA_UX-Salads-fon-copy-2.jpg");
+    }
+
+    .food-menu-desserts {
+        background-image: url("../img/Desserts-fon-copy-2.png");
+    }
+
+    .food-menu-item::after{
+        height: 154px;
+        font-size: 52px;
+        line-height: 150px;
+    }
+
+    .food-price_heading_header {
+        font-size: 40px;
+        padding-left: 20px;
+    }
+
+    .food-price {
+        margin-top: 45px;
+    }
+
+    .food-price_heading_subscribe {
+        font-size: 20px;
+        padding-left: 20px;
+        margin-top: 9px;
+    }
+
+    .eat-menu_title {
+        font-size: 40px;
+        background-color: #3f4043;
+        padding: 23px 38px;
+        margin-top: 20px;
+    }
+
+    .eat-menu_subtitle {
+        position: relative;
+        font-size: 30px;
+        padding: 0 38px;
+        margin-top: 38px;
+        margin-bottom: 42px;
+    }
+
+    .food-subtitle::after {
+        content: url("../img/Layer-11-copy-2.png");
+        margin-right: 12px;
+    }
+
+    .wine-subtitle::after {
+        content: url("../img/Layer-9-copy-2.png");
+        margin-right: 30px;
+    }
+
+    .tea-subtitle::after {
+        content: url("../img/Layer-10-copy-2.png");
+        margin-right: 10px;
+    }
+
+    .coffe-subtitle::after {
+        content: url("../img/Layer-8-copy-2.png");
+        margin-right: 20px;
+    }
+
+    .food-name-price {
+        padding: 0 38px;
+    }
+
+    .food-name {
+        font-size: 27px;
+    }
+
+    .food-description {
+        padding: 0 38px;
+        font-size: 18px;
+        margin-bottom: 23px;
+    }
+
+    .item-price {
+        font-size: 27px;
+    }
+
+    .tea-menu-title {
+        background-color: #acd9ad;
+    }
+
+    .footer {
+        font-size: 18px;
+        line-height: 26px;
+        padding: 28px 0;
+        margin-top: 117px;
+    }
+}
+
+@media (min-width: 980px) {
+
+    .navbar-menu-link:hover {
+        background-color: #3f4043;
+    }
+
+    .navbar {
+        padding: 0;
+        height: auto;
+    }
+
+    .navbar-content {
+        align-items: center;
+    }
+
+    .navbar-title {
+        display: none;
+    }
+
+    .navbar-menu {
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #3f4043;
+        padding: 40px 0;
+    }
+
+    .navbar-menu-link {
+        display: block;
+        padding: 0;
+        color: #fff;
+        text-decoration: none;
+        font-size: 15px;
+        border: none;
+        text-transform: uppercase;
+        margin-left: 30px;
+    }
+
+    .navbar-button {
+        display: none;
+    }
+
+    .navbar-menu-link.active {
+        background-color: #3f4043;
+    }
+
+    .navbar-logo {
+        display: block;
+        margin-right: 30px;
+    }
+
+    .header-title {
+        font-size: 54px;
+        line-height: 64px;
+        margin-bottom: 57px;
+    }
+
+    .header {
+        padding: 64px 0 260px 38px;
+        background-image: url(../img/header-fon-980.jpg);
+    }
+
+    .header-site-link {
+        font-size: 34px;
+    }
+
+    .food-menu-item {
+        flex-basis: 33.3%;
+        height: 327px;
+        line-height: 327px;
+    }
+
+    .food-menu-delivery {
+        background-image: url("../img/Pizza-delivery.jpg");
+    }
+
+    .food-menu-uaux {
+        background-image: url("../img/UA_UX-Salads.jpg");
+    }
+
+    .food-menu-desserts {
+        background-image: url("../img/Desserts-fon.jpg");
+    }
+
+    .food-menu-item::after{
+        display: none;
+    }
+
+    .food-menu-name {
+        width: 100%;
+        padding: 0;
+    }
+
+    .food-price_heading_header {
+        position: relative;
+    }
+
+    .food-price_heading_header::after {
+        content: url("../img/Menu-logo.png");
+        position: absolute;
+        top: 50%;
+        right: 0;
+        margin-right: 20px;
+        transform: translate(0, -50%);
+    }
+
+    .eat-menu_list {
+        flex-basis: 50%;
+    }
+
+    .eat-menu_title {
+        font-size: 34px;
+        padding: 27px 18px;
+    }
+
+    .eat-menu_subtitle {
+        font-size: 26px;
+    }
+
+    .food-name {
+        font-size: 24px;
+    }
+
+    .food-description {
+        font-size: 16px;
+    }
+
+    .item-price {
+        font-size: 24px;
+    }
+
+    .footer {
+        margin-top: 84px;
+        text-align: right;
+        padding: 10px 30px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .footer-text {
+        display: inline-block;
+    }
+
+    .footer-logo {
+        display: block;
+    }
+
+    .navbar-menu-active {
+        display: flex;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .navbar-menu-active {
+        display: flex;
+    }
+
+    .header {
+        background-image: url("../img/header-fon-1200.jpg");
+    }
+
+    .header-title {
+        font-size: 62px;
+        line-height: 64px;
+    }
+
+    .header-site-link {
+        font-size: 38px;
+    }
+
+    .food-menu-item {
+        height: 400px;
+        line-height: 400px;
+    }
+
+    .food-menu-name {
+        font-size: 43px;
+    }
+
+    .eat-menu_subtitle {
+        font-size: 30px;
+    }
+
+    .food-name {
+        font-size: 27px;
+    }
+
+    .item-price {
+        font-size: 27px;
+    }
+
+    .food-description {
+        font-size: 18px;
+        padding: 0 61px;
+    }
+
+    .food-name-price {
+        padding: 0 61px;
+    }
+
+    .eat-menu_subtitle {
+        padding: 0 61px;
+    }
+
+    .food-price_heading {
+        padding: 0 61px;
+    }
+
+    .eat-menu_title {
+        padding: 23px 61px;
+    }
+
+    .food-subtitle::after {
+        margin-right: 35px;
+    }
+
+    .wine-subtitle::after {
+        margin-right: 50px;
+    }
+
+    .tea-subtitle::after {
+        margin-right: 30px;
+    }
+
+    .coffe-subtitle::after {
+        margin-right: 35px;
+    }
+
+    .footer {
+        padding: 10px 61px;
+    }
+
+    .food-menu {
+        margin-top: 6px;
+    }
+}
